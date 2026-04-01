@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Katching</string>
+    <string name="imgCard">Card Image</string>
+    <string name="txtTodayBudget">Today\'s Budget</string>
+    <string name="txtBudget">RM 0.00</string>
+    <string name="imgWidget">An image for widget</string>
+    <string name="dot">.</string>
+    <string name="addBudget">Add Budget</string>
+    <string name="addExpense">Add Expense</string>
+    <string name="report">Monthly Report</string>
+    <string-array name="expenseType">
+        <item>Food &amp; Beverages</item>
+        <item>Housing &amp; Utilities</item>
+        <item>Transportation</item>
+        <item>Shopping</item>
+        <item>Health &amp; Wellness </item>
+        <item>Entertainment &amp; Leisure</item>
+        <item>Education</item>
+        <item>Communication</item>
+        <item>Pets</item>
+        <item>Savings &amp; Investments</item>
+        <item>Gifts &amp; Donations</item>
+        <item>Personal &amp; Miscellaneous</item>
+    </string-array>
+
+</resources>

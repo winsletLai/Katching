@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_k"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_k_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".UpdateIncomeActivity"
+            android:exported="false"
+            android:parentActivityName=".ReportActivity"/>
+        <activity
+            android:name=".AddIncomeActivity"
+            android:exported="false"
+            android:label="Add Income"
+            android:parentActivityName=".ReportActivity"/>
+        <activity
+            android:name=".AddBalanceActivity"
+            android:exported="false"
+            android:label="Set Up Balance"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".UpdateExpenseActivity"
+            android:exported="false"
+            android:parentActivityName=".ExpenseActivity" />
+        <activity
+            android:name=".UpdateBudgetActivity"
+            android:exported="false"
+            android:parentActivityName=".BudgetActivity" />
+        <activity
+            android:name=".AddExpenseActivity"
+            android:exported="false"
+            android:label="Add Expense"
+            android:parentActivityName=".ExpenseActivity" />
+        <activity
+            android:name=".AddBudgetActivity"
+            android:exported="false"
+            android:label="Add Budget"
+            android:parentActivityName=".BudgetActivity" />
+        <activity
+            android:name=".ReportActivity"
+            android:exported="false"
+            android:label="Monthly Expense"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".ExpenseActivity"
+            android:exported="false"
+            android:label="Daily Expense"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".BudgetActivity"
+            android:exported="false"
+            android:label="Daily Budget"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
